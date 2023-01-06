@@ -1,12 +1,5 @@
-import math
-
-import numpy as np
 import torch
 import torch.nn as nn
-import itertools
-# import tensorflow as tf
-import tensorflow.compat.v1 as tf
-
 
 class FuzzyLayer(nn.Module):
     def __init__(self, fuzzynum, channel):
